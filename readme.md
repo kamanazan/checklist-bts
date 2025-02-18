@@ -11,7 +11,8 @@ tech stack:
 
 1. create `.env` file based on `.env.example` file, and fill the neccessary field
 2. create database name according to `DB_NAME`
-3. app will run on port 3000
+3. run migration `npx sequelize-cli db:migrate`
+4. app will run on port 3000
 
 # example usage in curl
 
